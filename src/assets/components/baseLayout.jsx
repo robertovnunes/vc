@@ -1,7 +1,12 @@
+import PropTypes from "prop-types";
 import "./css/baseLayout.css";
 import NavBar from "./navbar";
 
-const BaseLayout = ({ children }) => {
+BaseLayout.propTypes = {
+    children: PropTypes.node.isRequired
+};
+
+function BaseLayout ({ children })  {
 
     return (
         <div>

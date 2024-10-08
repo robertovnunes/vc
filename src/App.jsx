@@ -1,6 +1,5 @@
 import './App.css'
 import BaseLayout from './assets/components/baseLayout'
-import NavBar from './assets/components/navbar'
 
 function App() {
 
